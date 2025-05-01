@@ -25,14 +25,15 @@ Aplicación en Python con Tkinter para ayudar a niñas y niños de primaria a pr
 
 3. Instala los requisitos:
    ```sh
-   pip install -r requirements.txt
+   venv/bin/pip install -r requirements.txt
    ```
 
 ## Uso
 
-Ejecuta el programa principal:
+Asegúrate de tener el entorno virtual activado antes de ejecutar el programa. Usa el ejecutable de Python dentro de venv:
 ```sh
-python main.py
+source venv/bin/activate
+venv/bin/python main.py
 ```
 
 ## Objetivos educativos
